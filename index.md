@@ -5,16 +5,21 @@ title: "Audio Samples for Multilingual Speaker Anonymization"
 
 # Audio Samples from the paper _Mitigating Language Mismatch in SSL-Based Speaker Anonymization_
 
-This page provides audio samples from our speaker anonymization experiments. Samples are from two datasets:
+This page provides audio samples from our speaker anonymization experiments. Samples are in two languages:
 
-- **Japanese (JVS) Samples**
-- **Mandarin (AISHELL-3) Samples**
+- **Japanese Samples**: JVS Dataset
+- **Mandarin Samples**: AISHELL-3 Dataset
 
 For each utterance, we first list:
-- **Original**: The unmodified utterance.
-- **VPC Baseline B2 (McAdams)**: Anonymization using the McAdams coefficient.
+- **Original**: The ground-truth utterance
+- **VPC Baseline B2 (McAdams)**: Anonymization based on the McAdams coefficient
 
-Then, the table below shows the results for the three HuBERT-based methods grouped by:
+Then, the table below shows the results for the three SSL-based methods:
+- **HU-EN**
+- **HU-JA**
+- **mHU-JA**
+
+The methods are grouped by speaker anonimizers or resynthesis:
 - **Resynthesis**
 - **Selection**
 - **OHNN**
